@@ -1,0 +1,38 @@
+$primary-color: #c2cece;
+$dark-square-color: #ccc;
+
+.chessboard {
+  margin: 0 auto 0.5em auto;
+  padding-top: 40px;
+  margin-top: 100px;
+  border: 2px solid black;
+
+  tr:nth-child(even) td:nth-child(odd),
+  tr:nth-child(odd) td:nth-child(even) {
+    background: $dark-square-color;
+    z-index: -1;
+  }
+}
+#piece {
+  td {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    &:hover {
+      background: $primary-color;
+    }
+
+    &.knight {
+      background-image: url("assets/image/knight.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    &.target {
+      background-image: url("assets/image/target.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}

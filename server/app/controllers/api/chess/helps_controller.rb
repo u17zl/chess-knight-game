@@ -1,8 +1,8 @@
 require 'BFS'
 module Api
     module Chess
-        class HelpController < ApplicationController
-            def help
+        class HelpsController < ApplicationController
+            def create
                 position =  params["position"]
                 target =  params["target"]
                 path = BFS(position, target)
