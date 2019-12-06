@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/chess-knight-game/static/css/main.33870493.chunk.css",
+    "main.js": "/chess-knight-game/static/js/main.90283bf0.chunk.js",
+    "main.js.map": "/chess-knight-game/static/js/main.90283bf0.chunk.js.map",
+    "runtime-main.js": "/chess-knight-game/static/js/runtime-main.08057fe2.js",
+    "runtime-main.js.map": "/chess-knight-game/static/js/runtime-main.08057fe2.js.map",
+    "static/css/2.64a99b10.chunk.css": "/chess-knight-game/static/css/2.64a99b10.chunk.css",
+    "static/js/2.98dd2b44.chunk.js": "/chess-knight-game/static/js/2.98dd2b44.chunk.js",
+    "static/js/2.98dd2b44.chunk.js.map": "/chess-knight-game/static/js/2.98dd2b44.chunk.js.map",
+    "index.html": "/chess-knight-game/index.html",
+    "precache-manifest.313df6cbaaec1744c14d3612f464af13.js": "/chess-knight-game/precache-manifest.313df6cbaaec1744c14d3612f464af13.js",
+    "service-worker.js": "/chess-knight-game/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/chess-knight-game/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.33870493.chunk.css.map": "/chess-knight-game/static/css/main.33870493.chunk.css.map",
+    "static/media/App.scss": "/chess-knight-game/static/media/target.c60775b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08057fe2.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.98dd2b44.chunk.js",
+    "static/css/main.33870493.chunk.css",
+    "static/js/main.90283bf0.chunk.js"
+  ]
+}
