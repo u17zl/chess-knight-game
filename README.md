@@ -1,7 +1,8 @@
 # chess-knight-game
 
 A Chess Knight game by React.js and Ruby on Rails
-[Live Demo (https://u17zl.github.io/chess-knight-game)](https://u17zl.github.io/chess-knight-game)
+[Live Demo (https://u17zl.github.io/chess-knight-game)](https://u17zl.github.io/chess-knight-game)  
+this demo is not supported by depolyed backend, you should download it and run by yourself
 
 ## How to run
 
@@ -16,7 +17,7 @@ npm start
 npm run test
 ```
 
-then you can access `127.0.0.1:3000` to see how it works
+then you can access `127.0.0.1:3000` to see frontend page
 
 ```sh
 // backend part
@@ -26,7 +27,8 @@ bundle i
 rails s -p 4000
 ```
 
-Default port changed from `3000` to `4000` to aviod port conflict.
+Default port changed from `3000` to `4000` to aviod port conflict.  
+Backend router `127.0.0.1:4000/api/chess/helps`
 
 ## Tech Stacks
 
