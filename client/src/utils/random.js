@@ -1,5 +1,5 @@
 /**
- * @returns [startPosition,targetPosition]
+ * @returns {Array} [startPosition,targetPosition]
  */
 
 export default function generateRandomPosition() {

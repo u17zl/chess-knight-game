@@ -8,7 +8,6 @@ var initBoard = new Array(8).fill(0);
 for (var i = 0; i < initBoard.length; i++) {
   initBoard[i] = new Array(8).fill(0);
 }
-console.log(initBoard);
 
 const ChessBoard = props => {
   const [board, setBoard] = useState(initBoard);
