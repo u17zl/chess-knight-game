@@ -36,7 +36,7 @@ const ChessBoard = props => {
 
   // help function fetch backend
   const handleHelpMove = () => {
-    fetch("http://127.0.0.1:4000/api/chess/helps", {
+    fetch(process.env.REACT_APP_API_URL + "/api/chess/helps", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
