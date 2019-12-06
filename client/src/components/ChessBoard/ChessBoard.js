@@ -36,6 +36,15 @@ const ChessBoard = props => {
 
   // help function fetch backend
   const handleHelpMove = () => {
+    // if already approach target
+    if (
+      position[0] === target[0] &&
+      position[1] === target[1] &&
+      position.length !== 0
+    ) {
+      return;
+    }
+
     fetch(process.env.REACT_APP_API_URL + "/api/chess/helps", {
       method: "POST",
       headers: {
