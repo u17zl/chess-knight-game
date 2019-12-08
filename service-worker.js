@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chess-knight-game/precache-manifest.897bdd79df610685f1848be217354d63.js"
+  "/chess-knight-game/precache-manifest.1cc27e6e4c0a2ade4f0a7a050e673b11.js"
 );
 
 self.addEventListener('message', (event) => {
