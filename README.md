@@ -2,7 +2,8 @@
 
 A Chess Knight game by React.js and Ruby on Rails
 [Live Demo (https://u17zl.github.io/chess-knight-game)](https://u17zl.github.io/chess-knight-game)  
-this demo is not supported by depolyed backend, you should download it and run by yourself
+~~this demo is not supported by depolyed backend, you should download it and run by yourself~~  
+this demo's backedn is supported by AWS ElasticBeanstalk with HTTPS
 
 ## How to run
 
@@ -40,6 +41,7 @@ Backend router `127.0.0.1:4000/api/chess/helps`
 - Enzyme
 - Ruby on Rails
 - Breadth First Search(Shortest Path)
+- AWS ElasticBeanstalk, Route53
 
 ## Highlights & Challenges
 
@@ -48,11 +50,11 @@ Backend router `127.0.0.1:4000/api/chess/helps`
 - Because this task do not need too much nested components, so I did not use Redux, if components have shared state and need to pass to very deep components, Redux is the better choice.
 - TDD/Unit Testing can ensure a componennt works when other people modify it, which is very helpful in team development and collaboration.
 - Still interested in this Ruby on Rails, and want to learn more about this cool framework.
-- Tried to depoly it on AWS EC2/ElasticBeanstalk, but faced with some database and version issues. Because this is the first time I was trying to depoly Ruby on Rails with limited time.
+- Deployed on AWS ElasticBeanstalk with HTTPS
 
 ## To Do
 
-- [ ] Backend deploymnet
+- [x] Backend deploymnet
 - [ ] Anitmation when piece moving
 - [ ] Learn more Knowledge about Ruby on Rails
-- [ ] Responsive design
+
