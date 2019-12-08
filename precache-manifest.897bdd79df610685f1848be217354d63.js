@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f196831fc2b4e127867512a82e85f739",
+    "revision": "e7dc2a1eafaa38e0189ed8f677f5ee35",
     "url": "/chess-knight-game/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chess-knight-game/static/css/2.64a99b10.chunk.css"
   },
   {
-    "revision": "36a45c666fbc574157a7",
+    "revision": "af3ba440f694de4ace8b",
     "url": "/chess-knight-game/static/css/main.33870493.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chess-knight-game/static/js/2.98dd2b44.chunk.js"
   },
   {
-    "revision": "36a45c666fbc574157a7",
-    "url": "/chess-knight-game/static/js/main.cecb491b.chunk.js"
+    "revision": "af3ba440f694de4ace8b",
+    "url": "/chess-knight-game/static/js/main.d630fb72.chunk.js"
   },
   {
     "revision": "5ce8bcea691a0c560eaf",
